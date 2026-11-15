@@ -1,16 +1,68 @@
-# React + Vite
+# Reddit Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Reddit Explorer is a responsive web application built with React, Redux Toolkit and Vite. It allows users to explore communities, search posts and view post details.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse different Reddit communities.
+- Search and filter posts.
+- View post details.
+- Upvote and downvote posts.
+- View comments where available.
+- Responsive user interface.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Redux Toolkit
+- HTML
+- CSS
+- Vite
+- Git and GitHub
 
-## Expanding the Oxlint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/subashinis-star/reddit-explorer.git
+```
+
+Move into the project folder:
+
+```bash
+cd reddit-explorer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Live Website
+
+https://subashinis-star.github.io/reddit-explorer/
+
+## Note
+
+The deployed version currently uses sample posts as fallback content. Live Reddit API integration is not yet available on GitHub Pages.
+
+## Author
+
+Subashini Sudhersanan
